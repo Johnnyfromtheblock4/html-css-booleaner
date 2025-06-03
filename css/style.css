@@ -4,20 +4,48 @@ header {
   padding: 0.5%;
 }
 
-#logo {
+header img {
   width: 200px;
-  height: 200px;
-  position: bottom;
+  height: 50px;
 }
 
-#title {
-  font-size: 40px;
+h1 {
+  font-size: 50px;
 }
 
-#subtitle strong {
-  color: #4EA1FF;
+.title span {
+  color: #48A5CB;
 }
 
-#subtitle {
-  margin-top: 0%;
+.image img {
+  width: 45%;
+  height: 750px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.yellow-text {
+  background-color: yellow;
+}
+
+table {
+  width: 100%;
+  font-size: 20px;
+}
+
+thead {
+  color: white;
+  background-color: #1EABE4;
+  width: 100%;
+  text-align: left;
+}
+
+.lightblue-row {
+  background-color: #B1E6F2;
+}
+
+.white-row {
+  background-color: white;
 }
