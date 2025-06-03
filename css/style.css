@@ -5,7 +5,19 @@ header {
 }
 
 #logo {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   position: bottom;
+}
+
+#title {
+  font-size: 40px;
+}
+
+#subtitle strong {
+  color: #4EA1FF;
+}
+
+#subtitle {
+  margin-top: 0%;
 }
