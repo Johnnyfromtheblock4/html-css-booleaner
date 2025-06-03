@@ -1,3 +1,4 @@
+/* header */
 header {
   background-image: url(/img/pattern.png);
   background-color: #4EA1FF;
@@ -9,6 +10,7 @@ header img {
   height: 50px;
 }
 
+/* title */
 h1 {
   font-size: 50px;
 }
@@ -17,11 +19,13 @@ h1 {
   color: #48A5CB;
 }
 
+/* image */
 .image img {
   width: 45%;
   height: 750px;
 }
 
+/* text */
 .text {
   font-size: 20px;
 }
@@ -30,6 +34,7 @@ h1 {
   background-color: yellow;
 }
 
+/* table */
 table {
   width: 100%;
   font-size: 20px;
@@ -48,4 +53,28 @@ thead {
 
 .white-row {
   background-color: white;
+}
+
+/* bottom text */
+h4 {
+  color: black;
+}
+
+#monitor-back {
+  background-image: url(/img/monitor.jpg);
+  width: 300px;
+  height: 300px;
+  position: relative;
+  color: white;
+  padding: 5px;
+
+}
+
+#graph-back {
+  background-image: url(/img/graph.jpg);
+  width: 300px;
+  height: 300px;
+  position: relative;
+  color: white;
+  padding: 5px;
 }
