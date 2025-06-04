@@ -2,10 +2,7 @@
   margin: 0;
 }
 
-body {}
-
-main,
-footer {
+main, footer {
   padding: 20px;
 }
 
@@ -13,8 +10,7 @@ h1 {
   font-size: 2.5rem;
 }
 
-p,
-section {
+p, section {
   padding-bottom: 20px;
   padding-top: 20px;
 }
