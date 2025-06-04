@@ -11,34 +11,36 @@
 <body>
 
   <header>
-    <img src="img/logo.svg" alt="logo">
+    <div class="logo">
+      <img src="img/logo.svg" alt="logo">
+    </div>
   </header>
 
   <main>
-    <!-- title -->
-    <div class="title">
+    <!-- top -->
+    <section id="top">
       <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-      <p>Scritto da <span>The Booleaner</span>
+      <p class="dida">Scritto da <span class="name">The Booleaner</span>
         <br>
-        il 10/10/2020
+        <span class="date">il 10/10/2020</span>
       </p>
-    </div>
-
-    <!-- image -->
-    <div class="image">
-      <img src="/img/tim-1.jpg" alt="tim-1">
-      <img src="/img/tim-2.jpg" alt="tim-2">
-      <p>
+      <!-- image -->
+      <div class="image-area">
+        <img src="/img/tim-1.jpg" alt="tim-1">
+        <img src="/img/tim-2.jpg" alt="tim-2">
+      </div>
+      <!-- commento -->
+      <p class="caption">
         1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
         <br> 2nd Photo: Wikimedia, by Paul Clarke
       </p>
-    </div>
+    </section>
 
-    <!-- text -->
-    <div class="text">
+    <!-- article -->
+    <section id="article">
       <p>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-        dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud <span class="yellow-text">exerci
+        dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud <span class="hightlight">exerci
           tation ullamcorper
           suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span> Duis autem vel eum iriure dolor in hendrerit
         in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan
@@ -53,70 +55,66 @@
         <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
           dolore magna aliquam erat volutpat.</li>
       </ul>
-    </div>
+    </section>
 
     <!-- table -->
-    <table>
-      <thead>
-        <tr>
-          <th>Lorem ipsum dolor</th>
-          <th>Lorem ipsum dolor</th>
-          <th>Lorem ipsum dolor</th>
-        </tr>
-      </thead>
+    <section id="table">
+      <table>
+        <thead>
+          <tr>
+            <th>Lorem ipsum dolor</th>
+            <th>Lorem ipsum dolor</th>
+            <th class="text">Lorem ipsum dolor</th>
+          </tr>
+        </thead>
 
-      <tbody>
-        <tr class="lightblue-row">
-          <td>Lorem ipsum dolor</td>
-          <td>Lorem ipsum dolor</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo, placeat consectetur ullam
-            fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam
-            natus harum.</td>
-        </tr>
+        <tbody>
+          <tr class="odd">
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo, placeat consectetur ullam
+              fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam
+              natus harum.</td>
+          </tr>
 
-        <tr class="white-row">
-          <td>Lorem ipsum dolor</td>
-          <td>Lorem ipsum dolor</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo, placeat consectetur ullam
-            fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam
-            natus harum.</td>
-        </tr>
+          <tr>
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo, placeat consectetur ullam
+              fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam
+              natus harum.</td>
+          </tr>
 
-        <tr class="lightblue-row">
-          <td>Lorem ipsum dolor</td>
-          <td>Lorem ipsum dolor</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo, placeat consectetur ullam
-            fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam
-            natus harum.</td>
-        </tr>
+          <tr class="odd">
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor</td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo, placeat consectetur ullam
+              fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam saepe quibusdam
+              natus harum.</td>
+          </tr>
 
-      </tbody>
+        </tbody>
 
-    </table>
-
-    <!-- bottom text -->
-    <div class="text">
+      </table>
       <p>
         Lorem ipsim dolor sit amet, consecteur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
         dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
         suscipit lobortis nisl ut aliquip ex ea commodo consequat.Duis autem vel eum iriure dolor in hendrerit in
         vulputate velit esse molestie consequat, vel
-        <span class="yellow-text">illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto</span>
+        <span class="hightlight">illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto</span>
         odio dignissim qui blandit praesent luptum zzril delenit augue duis dolore te feuait nulla facilisi.
       </p>
-    </div>
-
+    </section>
   </main>
 
   <footer>
-    <h4>Potrebbe interessarti</h4>
+    <h3>Potrebbe interessarti</h3>
     <!-- footer image -->
-    <div id="monitor-back">
-      <p><strong>Lorem ipsum dolor</strong></p>
+    <div class="box-image monitor">
+      <h3>Lorem ipsum dolor</h3>
     </div>
-
-    <div id="graph-back">
-      <p><strong>Lorem ipsum dolor</strong></p>
+    <div class="box-image graph">
+      <h3>Lorem ipsum dolor</h3>
     </div>
   </footer>
 
